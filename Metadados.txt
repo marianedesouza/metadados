@@ -1,0 +1,57 @@
+
+1.METADADOS
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Exemplo</title>
+</head>
+<body>
+    <!-- Conteúdo da página -->
+</body>
+</html>
+
+2.SEPARAÇÃO DE CONTEÚDO
+
+<header>
+    <h1>Meu Site</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+<section>
+    <h2>Seção Principal</h2>
+    <p>Conteúdo da seção...</p>
+</section>
+<footer>
+    <p>Rodapé do site.</p>
+</footer>
+
+3.TEXTO
+
+<p>Isto é um parágrafo.</p>
+<h2>Um Título</h2>
+<p><strong>Texto em negrito.</strong> Texto normal.</p>
+
+4.IMAGEM
+
+<img src="imagem.jpg" alt="Descrição da Imagem">
+<img src="icone.png" alt="Ícone">
+
+5.FORMULÁRIO
+
+<form action="/processar-formulario" method="post">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <input type="submit" value="Enviar">
+</form>
